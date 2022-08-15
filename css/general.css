@@ -119,6 +119,7 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -127,6 +128,11 @@ body {
   padding: 1.6rem 3.2rem;
   text-decoration: none;
   border-radius: 9px;
+
+  /* only for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 
   transition: all 0.3s;
 }
