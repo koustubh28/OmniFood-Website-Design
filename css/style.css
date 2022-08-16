@@ -468,9 +468,6 @@
   border-radius: 11px;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
-
-  /* Temp */
-  height: 50rem;
 }
 
 .cta-text-box {
@@ -531,8 +528,7 @@
   color: #aaa;
 }
 
-.cta-form select {
-}
-
-.cta-form button {
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
